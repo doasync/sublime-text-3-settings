@@ -42,6 +42,7 @@ Packages installed from [Package Control](https://packagecontrol.io)
 3. Open terminal and clone the repo to this folder:
 
 **Windows 10**: *%AppData%\Sublime Text 3\Packages\User*
+
 **Ubuntu 17**: *~/.config/sublime-text-3/Packages/User*
 
   ```bash
