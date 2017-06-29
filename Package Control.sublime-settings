@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"Babel",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Clipboard Manager",
+		"CSS3",
+		"Emmet",
+		"FileDiffs",
+		"GitGutter",
+		"Hayaku - tools for writing CSS faster",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Completions",
+		"LESS",
+		"Less Tabs",
+		"Local History",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SyncedSideBar",
+		"Tab Filter",
+		"TabsExtra"
+	]
+}

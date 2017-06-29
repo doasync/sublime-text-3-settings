@@ -1,0 +1,29 @@
+// You can set a command like this
+// "cmd": ["command", "$file1", "$file2"]
+
+// You can also include other command line parameters like this
+// "cmd": ["command", "-parameter1", "-parameter2", "$file1", "$file2"]
+
+// Commands
+// file_diff_menu: Shows a menu to select one of the file_diff commands. If you use the bindings in Example.sublime-keymap, this is bound to ctrl+shift+d.
+
+// The rest of the commands do not need to be bound (accessible from the menu):
+// file_diff_clipboard: Shows the diff of the current file or selection(s) and the clipboard (the clipboard is considered the “new” file unless reverse is True)
+// file_diff_selections: Shows the diff of the first and second selected regions. The file_diff_menu command checks for exactly two regions selected, otherwise it doesn't display this command.
+// file_diff_saved: Shows the diff of the current file or selection(s) and the saved file.
+// file_diff_file: Shows the diff of the current file or selection(s) and a file that is in the current project.
+// file_diff_tab: Shows the diff of the current file or selection(s) and an open file (aka a file that has a tab).
+// file_diff_previous: Shows the diff of the current file or selection(s) and the previous activated file.
+
+{
+  // SmartSynchronize
+  // "cmd": ["smartsynchronize", "$file1", "$file2"]
+
+  // Meld
+  "cmd": ["meld", "$file1", "$file2"]
+
+  // "trim_trailing_white_space_before_diff": false
+  // "expand_full_file_name_in_tab": false
+  // "apply_tempfile_changes_after_diff_tool": false
+  // "limit": 1000
+}

@@ -1,0 +1,7 @@
+[
+  { "keys": ["ctrl+tab"], "command": "tab_filter" },
+  { "keys": ["alt+q"], "command": "less_tabs" },
+  { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+  { "keys": ["alt+d"], "command": "file_diff_menu" },
+  { "keys": ["alt+shift+d"], "command": "file_diff_saved" },
+]

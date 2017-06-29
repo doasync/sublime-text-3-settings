@@ -1,0 +1,36 @@
+[
+  { "keys": ["ctrl+tab"], "command": "tab_filter" },
+  { "keys": ["alt+q"], "command": "less_tabs" },
+  { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+  { "keys": ["alt+d"], "command": "file_diff_menu" },
+  { "keys": ["alt+shift+d"], "command": "file_diff_saved" },
+  // Fold contents between brackets
+  {
+      "keys": ["ctrl+shift+x"],
+      "command": "bh_key",
+      "args":
+      {
+          "plugin": {
+              "type": ["__all__"],
+              "command" : "bh_modules.foldbracket"
+          }
+      }
+  },
+  // Select text between brackets
+  {
+      "no_outside_adj": null,
+      "keys": ["alt+a"],
+      "command": "bh_key",
+      "args":
+      {
+          "lines" : true,
+          "plugin":
+          {
+              "type": ["__all__"],
+              "command": "bh_modules.bracketselect"
+          }
+      }
+  },
+  { "keys": ["ctrl+shift+c"], "command": "clipboard_manager_copy" },
+  { "keys": ["ctrl+shift+v"], "command": "clipboard_manager_choose_and_paste" },
+]

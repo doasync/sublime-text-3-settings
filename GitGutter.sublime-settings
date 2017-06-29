@@ -1,0 +1,7 @@
+{
+  // Show GitGutter information in the minimap
+  // =0: hide markers
+  // >0: width of markers
+  // -1: highlight full line
+  "show_in_minimap": 0
+}

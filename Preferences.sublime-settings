@@ -1,0 +1,96 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_with_fields": true,
+	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"var/cache/**",
+		"var/session/**"
+	],
+	"caret_style": "blink",
+	"color_scheme": "Packages/User/SublimeLinter/Twilight (SL).tmTheme",
+	"detect_indentation": false,
+	"drag_text": true,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		"node_modules"
+	],
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"directwrite",
+		"subpixel_antialias"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"ZenCoding"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"open_files_in_new_window": false,
+	"tab_size": 2,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme_bar": true,
+	"theme_bar_logo_atomized": true,
+	"theme_button_rounded": true,
+	"theme_dropdown_atomized": true,
+	"theme_find_panel_font_md": true,
+	"theme_find_panel_padding_xs": true,
+	"theme_find_panel_size_xxs": true,
+	"theme_font_lg": true,
+	"theme_icon_button_highlighted": true,
+	"theme_icons_materialized": true,
+	"theme_panel_switcher_atomized": true,
+	"theme_quick_panel_border_visible": true,
+	"theme_quick_panel_size_lg": true,
+	"theme_scrollbar_semi_overlayed": true,
+	"theme_sidebar_border": true,
+	"theme_sidebar_folder_atomized": true,
+	"theme_sidebar_folder_mono": true,
+	"theme_sidebar_font_xl": true,
+	"theme_sidebar_icon_saturation_hg": true,
+	"theme_sidebar_indent_top_level_disabled": true,
+	"theme_sidebar_indent_xl": true,
+	"theme_sidebar_size_xs": true,
+	"theme_statusbar_size_xs": true,
+	"theme_tab_arrows_hidden": true,
+	"theme_tab_close_always_visible": true,
+	"theme_tab_font_sm": true,
+	"theme_tab_line_size_lg": true,
+	"theme_tab_selected_label_bold": true,
+	"theme_tab_selected_overlined": true,
+	"theme_tab_separator": true,
+	"theme_tab_size_xs": true,
+	"theme_tab_width_auto": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"word_wrap": "false"
+}
