@@ -21,7 +21,9 @@
                 "~/.nvm/versions/node/v8.1.2/bin"
             ],
             "osx": [],
-            "windows": []
+            "windows": [
+                "%appdata%\\npm"
+            ]
         },
         "python_paths": {
             "linux": [],

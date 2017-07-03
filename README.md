@@ -13,8 +13,8 @@ Packages installed from [Package Control](https://packagecontrol.io)
  - Babel
  - Boxy Theme
  - BracketHighlighter
- - Color Highlighter
  - CSS3
+ - DocBlockr
  - Emmet
  - FileDiffs
  - GitGutter
@@ -28,25 +28,30 @@ Packages installed from [Package Control](https://packagecontrol.io)
  - Sass
  - SideBarEnhancements
  - SublimeCodeIntel
+ - SublimeLinter
+ - SublimeLinter-contrib-eslint
  - SyncedSideBar
  - Tab Filter
  - TabsExtra
- - Clipboard manager
- - SublimeLinter
- - Sublime​Linter-contrib-eslint
 
 ### Installation
 
 1. Go to *Preferences -> Browse packages...*
 2. Open `User` folder
-3. Open terminal and clone the repo to this folder:
+3. Clone the repo to this folder
 
-**Windows 10**: *%AppData%\Sublime Text 3\Packages\User*
-
-**Ubuntu 17**: *~/.config/sublime-text-3/Packages/User*
+#### Windows 10
 
   ```bash
-  git clone https://github.com/doasync/sublime-text-3-settings.git
+  cd %AppData%\Sublime Text 3\Packages\User
+  git clone https://github.com/doasync/sublime-text-3-settings.git .
+  ```
+
+#### Ubuntu 17
+
+  ```bash
+  cd ~/.config/sublime-text-3/Packages/User
+  git clone https://github.com/doasync/sublime-text-3-settings.git .
   ```
 
 ### General config

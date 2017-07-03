@@ -16,9 +16,6 @@
 // file_diff_previous: Shows the diff of the current file or selection(s) and the previous activated file.
 
 {
-  // SmartSynchronize
-  // "cmd": ["smartsynchronize", "$file1", "$file2"]
-
   // Meld
   "cmd": ["meld", "$file1", "$file2"]
 
