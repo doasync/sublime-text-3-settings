@@ -27,6 +27,7 @@
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
+  "show_encoding": true,
 	"folder_exclude_patterns":
 	[
 		".sass-cache",
