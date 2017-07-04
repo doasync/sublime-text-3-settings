@@ -27,7 +27,6 @@
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
-  "show_encoding": true,
 	"folder_exclude_patterns":
 	[
 		".sass-cache",
@@ -56,6 +55,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"open_files_in_new_window": false,
+	"show_encoding": true,
 	"tab_size": 2,
 	"theme": "Boxy Tomorrow.sublime-theme",
 	"theme_bar": true,

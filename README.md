@@ -67,6 +67,7 @@ Packages installed from [Package Control](https://packagecontrol.io)
   "draw_white_space": "selection",
   "ensure_newline_at_eof_on_save": true,
   "fallback_encoding": "UTF-8",
+  "show_encoding": true,
   "folder_exclude_patterns": [".sass-cache", "node_modules"],
   "font_options": ["directwrite", "subpixel_antialias"],
   "highlight_line": true,
